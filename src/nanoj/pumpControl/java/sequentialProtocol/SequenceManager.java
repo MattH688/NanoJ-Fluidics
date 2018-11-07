@@ -106,12 +106,6 @@ public class SequenceManager extends Observable implements Runnable {
                     // If this isn't the last step, then set the "syringe ready" status to false. This makes
                     // the sequence wait until the user has confirmed the syringe exchange.
                     if (currentStep < endStep) setMonkeyReady(false); 
-                        // If it IS the last step, then we can stop now.
-                    else { // This code will never run
-                        stop();
-                        setWaitingMessage("Sequence finished.");
-                        break;
-                    }
 
                     if (currentStep < endStep-1)
                         syringeExchangeNeeded = sequence.get(currentStep+1).isSyringeExchangeRequired();
