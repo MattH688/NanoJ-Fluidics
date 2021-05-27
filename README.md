@@ -1,5 +1,7 @@
 # NanoJ-Fluidics: open-source fluid exchange in microscopy
 
+This fork focuses on creating a standalone Arduino Lego-based stepper motor which is still controllable with NanoJ-Fluidics software.
+
 Note: visit the [**Wiki**][10] or [**Forum**][12] for latest updates.
 
 ![][8]
