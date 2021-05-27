@@ -1,6 +1,6 @@
 # NanoJ-Fluidics: open-source fluid exchange in microscopy
 
-This fork focuses on creating a standalone Arduino Lego-based stepper motor which is still controllable with NanoJ-Fluidics software.
+This fork focuses on creating a standalone Arduino Lego-based stepper motor syringe system (numpad and LCD 16x2 bit) similar to an Aladdin AL-3000 pump. This still maintains compatability with NanoJ-Fluidics software. It is currently in **beta** and glitches are expected.
 
 Note: visit the [**Wiki**][10] or [**Forum**][12] for latest updates.
 
